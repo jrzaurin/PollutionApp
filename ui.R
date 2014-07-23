@@ -3,10 +3,11 @@ library(shiny)
 # Define UI for dataset viewer application
 shinyUI(
     pageWithSidebar(
-    # Application title
+    #Application title
     headerPanel("Air Pollution across the US"),
 
     sidebarPanel(
+	#inputs that will later comprise a data frame
        numericInput("lat","latitude", 39.28),
        numericInput("lon","longitude", -76.61),       
        numericInput("r","radius in miles", 10),     		

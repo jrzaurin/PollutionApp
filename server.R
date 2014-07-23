@@ -1,6 +1,7 @@
 library(shiny)
 
 source("AirPollution.R")
+#below simply calling the functions within AirPollution.R
 
 shinyServer(
   function(input, output) {
